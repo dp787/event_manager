@@ -38,13 +38,5 @@ COPY --chown=myuser:myuser . /myapp
 # Inform Docker that the container listens on the specified port at runtime.
 EXPOSE 8000
 
-# Update the package with workaround for permission issue
-RUN mkdir -p /var/lib/apt/lists/partial \
-    && apt-get update \
-    && apt-get install -y --no-install-recommends libc-bin=2.31-13+deb11u9 \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
-
 # Use ENTRYPOINT to specify the executable when the container starts.
 ENTRYPOINT ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
-
