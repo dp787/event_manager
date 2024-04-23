@@ -1,6 +1,6 @@
 # Homework 10
 
-This project aims to provide a brief overview of its functionality and purpose. It includes links to closed issues, providing easy access to your work, as well as a link to the project image deployed to Dockerhub.
+This project aims to provide a brief overview of its functionality and purposes. It includes links to closed issues, providing easy access to your work, as well as a link to the project image deployed to Dockerhub.
 
 ## Closed Issues
 - [Fixed picture URL](link_to_issue)
