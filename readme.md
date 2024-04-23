@@ -3,15 +3,15 @@
 This project aims to provide a brief overview of its functionality and purposes. It includes links to closed issues and pull requests, providing easy access to your work, as well as a link to the project images deployed within the Dockerhubs.
 
 ## Closed Issues
-- [Fixed picture URL](link_to_issue)
-- [Fixed incorrect bio](link_to_issue)
-- [Changed HTTP codes](link_to_issue)
-- [More HTTPS codes fixed in test files](link_to_issue)
-- [Fixed delete_user test to ensure pytest runs](link_to_issue)
-- [Added refresh token plus test file to ensure more coverage](link_to_issue)
+- [Fixed picture URL](https://github.com/dp787/event_manager/issues/2)
+- [Fixed incorrect bio](https://github.com/dp787/event_manager/issues/4)
+- [Changed HTTP codes](https://github.com/dp787/event_manager/issues/6)
+- [More HTTPS codes fixed in test files](https://github.com/dp787/event_manager/issues/8)
+- [Fixed delete_user test to ensure pytest runs](https://github.com/dp787/event_manager/issues/10)
+- [Added refresh token plus test file to ensure more coverage](https://github.com/dp787/event_manager/issues/12)
 
 ## Project Image
-[Link to Dockerhub](link_to_dockerhub_image)
+[Link to Dockerhub](https://hub.docker.com/repository/docker/dp787/event_manager/general)
 
 ## Reflection
 
